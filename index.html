@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container-1">
+            <h1>Calculadora de notas</h1>
+            <H3>Insira as notas</H3>
+            <input type="text" placeholder="nota 1" id="nota1">
+            <input type="text" placeholder="nota 2" id="nota2">
+            <input type="text" placeholder="nota 3" id="nota3">
+            <input type="text" placeholder="nota 4" id="nota4">
+            <div>
+                <button type="text" onclick="calcularMedia()">Calcular media</button>
+                <button onclick="limpar()">Limpar</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="container-2">
+            <div id="aguardo">
+                <h1>Aguardando o envio</h1>
+                <img src="https://media.tenor.com/13VnwKt5qS0AAAAd/waiting.gif" alt="" srcset="">
+            </div>
+            <div id="respondido">
+                <h1>A média é: <span id="medianota"></span></h1>
+                <img id="notaboa" src="https://gifs.eco.br/wp-content/uploads/2021/10/imagens-e-gifs-de-dragon-ball-55.gif" alt="" srcset="">
+                <img id= "media"src="https://i.gifer.com/Pw0b.gif" alt="" srcset="">
+                <img id= "ruim"src="https://i.pinimg.com/originals/df/e5/40/dfe54056287aac24677c9075989ae5ca.gif" alt="" srcset="">
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+
+</body>
+
+</html>
